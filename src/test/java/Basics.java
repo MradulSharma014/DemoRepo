@@ -21,6 +21,9 @@ public class Basics {
         JsonPath jp = ReusableMethods.rawToString(response);
         String placeIDVal = jp.get("place_id");
         System.out.println(placeIDVal);
+System.out.println("placeIDVal");
+System.out.println("placeIDVal");
+System.out.println("placeIDVal");
 
         //Update Place
         String addressVal = "70 Summer walk, USA";
